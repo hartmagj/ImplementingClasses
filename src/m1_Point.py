@@ -82,7 +82,7 @@ class Point(object):
     def halfway_to(self, p2):
         x = (self.x + p2.x)/2
         y = (self.y + p2.y)/2
-        p1 = Point(x,y)
+        p1 = Point(x, y)
         return p1
 
 
